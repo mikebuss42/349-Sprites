@@ -83,7 +83,7 @@ h1 {
     height: 93px;
     grid-column: 4 / 6;
     grid-row: 4 / 5;
-    
+
 }
 .fifteen {
     background-image: url(freetileset/png/Tiles/15.png);
@@ -106,7 +106,7 @@ h1 {
     height: 93px;
     grid-column: 2;
     grid-row: 2 / 3;
-    
+
 }
 .fifteen-2 {
     background-image: url(freetileset/png/Tiles/15.png);
@@ -131,45 +131,85 @@ h1 {
     grid-row: 6;
 }
 
+/*---------- BUTTON CONTROL GRID ----------*/
 
-.control-zombie {
+.control-buttons {
     display: grid;
-    grid-template-columns: 185px 185px 185px;
-    grid-template-rows: 185px 185px;
+    grid-template-columns: 170px 170px 170px 170px 170px 170px;
+    grid-template-rows: 170px 170px;
 }
 
+/*---------- ZOMBIE CONTROLS ----------*/
+
 .button-up-zombie {
-    background: url(freegamebutton/Button.png) no-repeat -326px -1194px;
-    width: 176px;
-    height: 185px;
+    background: url(freegamebutton/ButtonUp.png);
+    width: 170px;
+    height: 170px;
     grid-column: 2 / 3;
-    grid-row: 1;
+    grid-row: 1 / 2;
     border: none;
 }
 
 .button-down-zombie {
-    background: url(freegamebutton/Button.png) no-repeat -326px -1410px;
-    width: 176px;
-    height: 185px;
+    background: url(freegamebutton/ButtonDown.png);
+    width: 170px;
+    height: 170px;
     grid-column: 2 / 3;
     grid-row: 2;
     border: none;
 }
 
 .button-left-zombie {
-    background: url(freegamebutton/Button.png) no-repeat -326px -978px;
-    width: 176px;
-    height: 185px;
+    background: url(freegamebutton/ButtonLeft.png);
+    width: 170px;
+    height: 170px;
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     border: none;
 }
 
 .button-right-zombie {
-    background: url(freegamebutton/Button.png) no-repeat -326px -762px;
-    width: 176px;
-    height: 185px;
+    background: url(freegamebutton/ButtonRight.png);
+    width: 170px;
+    height: 170px;
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 2;
+    border: none;
+}
+
+/*---------- ROBOT CONTROLS ----------*/
+.button-up-robot {
+    background: url(freegamebutton/ButtonUp.png);
+    width: 170px;
+    height: 170px;
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+    border: none;
+}
+
+.button-down-robot {
+    background: url(freegamebutton/ButtonDown.png);
+    width: 170px;
+    height: 170px;
+    grid-column: 5 / 6;
+    grid-row: 2;
+    border: none;
+}
+
+.button-left-robot {
+    background: url(freegamebutton/ButtonLeft.png);
+    width: 170px;
+    height: 170px;
+    grid-column: 4;
+    grid-row: 2;
+    border: none;
+}
+
+.button-right-robot {
+    background: url(freegamebutton/ButtonRight.png);
+    width: 170px;
+    height: 170px;
+    grid-column: 6;
+    grid-row: 2;
     border: none;
 }
